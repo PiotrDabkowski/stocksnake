@@ -440,7 +440,6 @@ Position& Position::set(const string& code, Color c, StateInfo* si) {
 /// Chess960 the Shredder-FEN notation is used. This is mainly a debugging function.
 
 const string Position::fen() const {
-
   int emptyCnt;
   std::ostringstream ss;
 
